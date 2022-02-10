@@ -18,3 +18,4 @@ Discord: KoffiDev Support#2659
 Tiktok: @kdss_official 
 Twitter: @KdssSupport 
 MalwareBazaar: https://bazaar.abuse.ch/user/1486604395223699456/ 
+Our Discord Server: https://discord.gg/9G65jBs6pz
