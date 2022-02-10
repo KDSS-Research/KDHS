@@ -13,8 +13,8 @@ currently being supported with security updates.
 ## Reporting a Vulnerability
 
 If you found vulnerability in our algoritm report this to us:
-Email: koffidev365supp@gmail.com
-Discord: KoffiDev Support#2659
-Tiktok: @kdss_official
-Twitter: @KdssSupport
-MalwareBazaar: https://bazaar.abuse.ch/user/1486604395223699456/
+Email: koffidev365supp@gmail.com \n
+Discord: KoffiDev Support#2659 \n
+Tiktok: @kdss_official \n
+Twitter: @KdssSupport \n
+MalwareBazaar: https://bazaar.abuse.ch/user/1486604395223699456/ \n
