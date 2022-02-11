@@ -19,9 +19,9 @@ class kdhs:
     def gethash(self):
         self.finalhash = ''
         self.kdhs_lines = []
-        self.pe = pefile.PE(self.file)
         self.kdhs_is_exe = os.path.splitext(self.file)[1]
-        try:
+        if self.kdhs_is_exe != '.exe':
+            self.fh = open(self.file, 'r')
             while True: # while: file reading (lines)
         
                 self.kdhs_line_f_append = self.fh.readline() # Line for append
@@ -42,7 +42,8 @@ class kdhs:
                         self.finalhash += self.kdhs_finalhash_temp # final method in while
             self.kdhs_finalhash_len = len(self.finalhash)
             return(self.finalhash[:self.kdhs_finalhash_len-1])
-        except:
+        else:
+            self.pe = pefile.PE(self.file)
             self.kdhs_exe_bytes = os.path.getsize(self.file)
             self.kdhs_lines.append(str(self.pe.sections[0].get_data()[:self.kdhs_exe_bytes]))
             self.kdhs_plug = None
